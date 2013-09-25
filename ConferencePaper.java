@@ -1,4 +1,3 @@
-
 public class ConferencePaper extends Paper
 {
 	/**
@@ -50,7 +49,9 @@ public class ConferencePaper extends Paper
 		setDate(newDate);
 		setDOI(newDOI);
 	}
-	
+	/**
+	 * Converts the object into a string
+	 */
 	public String toString()
 	{
 		return getName() + "|";
